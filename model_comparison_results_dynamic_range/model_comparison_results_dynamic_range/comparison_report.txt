@@ -1,0 +1,33 @@
+=== DETALLES DEL MODELO TFLite ===
+Input - dtype: <class 'numpy.float32'>
+Output - dtype: <class 'numpy.float32'>
+
+=== MÉTRICAS COMPARATIVAS ===
+Original Accuracy: 0.8995
+Quantized Accuracy: 0.8976
+Difference: 0.0019
+Agreement: 2612/2636 (99.09%)
+
+=== REPORTE ORIGINAL ===
+              precision    recall  f1-score   support
+
+          WF     0.9058    0.8604    0.8825       659
+          WE     0.9704    0.9454    0.9577       659
+          HC     0.8740    0.8634    0.8687       659
+         REP     0.8536    0.9287    0.8895       659
+
+    accuracy                         0.8995      2636
+   macro avg     0.9009    0.8995    0.8996      2636
+weighted avg     0.9009    0.8995    0.8996      2636
+
+=== REPORTE CUANTIZADO ===
+              precision    recall  f1-score   support
+
+          WF     0.9111    0.8558    0.8826       659
+          WE     0.9658    0.9423    0.9539       659
+          HC     0.8672    0.8619    0.8645       659
+         REP     0.8526    0.9302    0.8897       659
+
+    accuracy                         0.8976      2636
+   macro avg     0.8992    0.8976    0.8977      2636
+weighted avg     0.8992    0.8976    0.8977      2636
