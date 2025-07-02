@@ -1,0 +1,13 @@
+*.png filter=lfs diff=lfs merge=lfs -text
+Data_sEMGsignals/sEMGmuestrasLimpiasDef/*.mat filter=lfs diff=lfs merge=lfs -text
+FeaturesExtracted_sEMGsignals/*.mat filter=lfs diff=lfs merge=lfs -text
+Plots_sEMGsignals/graficos/*.png filter=lfs diff=lfs merge=lfs -text
+Data_sEMGsignals/sEMGmuestrasLimpiasDef/sEMG/datosSensor/MAD/*.png filter=lfs diff=lfs merge=lfs -text
+Data_sEMGsignals/sEMGmuestrasLimpiasDef/sEMG/datosSensor/MAD/*.mat filter=lfs diff=lfs merge=lfs -text
+FeaturesExtracted_sEMGsignals/*.csv filter=lfs diff=lfs merge=lfs -text
+FeaturesExtracted_sEMGsignals/featuresLimpiasDef/*.mat filter=lfs diff=lfs merge=lfs -text
+FeaturesExtracted_sEMGsignals/featuresLimpiasDef/features/sEMG/datosSensor/MAD/*.mat filter=lfs diff=lfs merge=lfs -text
+model_comparison_results_dynamic_range/model_comparison_results_dynamic_range/*.png filter=lfs diff=lfs merge=lfs -text
+10_InferenceSystem_sEMGPatternRecognition_InRealTime/resultados_pruebas_finales/*.csv filter=lfs diff=lfs merge=lfs -text
+10_InferenceSystem_sEMGPatternRecognition_InRealTime/resultados_pruebas_finales/*.xlsx filter=lfs diff=lfs merge=lfs -text
+10_InferenceSystem_sEMGPatternRecognition_InRealTime/resultados_pruebas_finales/*.png filter=lfs diff=lfs merge=lfs -text
